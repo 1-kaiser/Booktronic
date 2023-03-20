@@ -1,12 +1,34 @@
+
 .genres {
 
-    .container {
+    .genres_container {
 
         min-height: 100vh;
-        margin: 0 23px 0 23px;
+        margin: 0 23px 0 105px;
 
         display: flex;
-        align-items: center;
-        justify-content: center;
+        
+        
+
+        
+
+        .genres_title {
+
+            
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            .genres_body {
+
+                margin: 39px 0 0 20px;
+                font-family: 'Edu NSW ACT Foundation', cursive;
+            }
+
+            img {
+
+                width: 66px;
+            }
+        }
     }
 }
