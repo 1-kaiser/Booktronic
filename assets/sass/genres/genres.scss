@@ -11,12 +11,10 @@ $header_genres:'Edu NSW ACT Foundation', cursive;
         align-items: flex-start;
         justify-content: flex-start;
 
-        margin: 60px 0 0 60px;
-
         .genres_image_title {
     
             width: 50px;
-            margin: 60px 20px 0 0;
+            margin: 18px 20px 0 0;
         }
     
         .genres_title {
@@ -77,3 +75,12 @@ $header_genres:'Edu NSW ACT Foundation', cursive;
         }
     }
 }
+
+// @media only screen and (max-width: 660px) {
+
+//     .container_title {
+
+//         margin: 60px 0 0 227px;
+//     }
+
+// }

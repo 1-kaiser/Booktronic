@@ -7,6 +7,8 @@
     <title>Booktronic</title>
 
     <link rel="icon" type="image/x-icon" href="./assets/img/read_icon.ico">
+    <link rel="stylesheet" href="./assets/js/aos.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&family=Poppins&display=swap" rel="stylesheet">
@@ -21,18 +23,18 @@
     <!-- LandingPage -->
     <div class="container">
             <div class="body">
-                <h1 class="landing-title">Booktronic</h1>
-                <p>is an ordering system project that our group will work and design it.<br> 
+                <h1 class="landing-title" data-aos="fade-up">Booktronic</h1>
+                <p data-aos="fade-up" data-aos-delay="400">is an ordering system project that our group will work and design it.<br> 
                     The system project will be based on user who will buy an ebook</p>
 
                     <div class="buttons">
-                        <a href="#genres"><i class="fa-solid fa-list fa-2xm"></i></a>
-                        <a href="#books"><i class="fa-solid fa-book fa-2xm"></i></a>
-                        <a href="#contact"><i class="fa-solid fa-user fa-2xm"></i></a>
+                        <a data-scroll href="#genres"><i class="fa-solid fa-list fa-2xm" data-aos="fade-up" data-aos-delay="500"></i></a>
+                        <a href="#books"><i class="fa-solid fa-book fa-2xm" data-aos="fade-up" data-aos-delay="700"></i></a>
+                        <a href="#contact" ><i class="fa-solid fa-user fa-2xm" data-aos="fade-up" data-aos-delay="1000"></i></a>
                     </div>
             </div>
             <div class="image">
-                <img src="./assets/img/read.gif" alt="">
+                <img src="./assets/img/read.gif" alt="" data-aos="fade-up" data-aos-delay="700">
             </div>
     </div>
 
@@ -40,11 +42,11 @@
         <div class="genres_container">
 
             <div class="container_title">
-                <div class="genres_image_title">
+                <div class="genres_image_title" data-aos="fade-up">
                     <img src="./assets/img/genres.gif" alt="">
                 </div>
                 <div class="genres_title">
-                    <h3 class="genres_title">Genres</h3>
+                    <h3 class="genres_title" data-aos="fade-up" data-aos-delay="400">Genres</h3>
                 </div>
             </div>
 
@@ -52,11 +54,44 @@
                 <div class="row">
 
                     <div class="col1">
-                        <div class="card">
+                        <div class="card" data-aos="fade-up">
                             <img src="./assets/img/comedy.gif" alt="">
                         </div>
                         <div class="card_body">
-                            <h3 class="card_title">Comedy</h3>
+                            <h3 class="card_title" data-aos="fade-up" data-aos-delay="500">Comedy</h3>
+                            <p class="card_text" data-aos="fade-up" data-aos-delay="800">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. 
+                            Eos enim, tenetur ut dolores  <br> rerum dignissimos.</p>
+                        </div>
+                    </div>
+
+                    <div class="col1">
+                        <div class="card">
+                            <img src="./assets/img/romance.gif" alt="" data-aos="fade-up" data-aos-delay="500">
+                        </div>
+                        <div class="card_body">
+                            <h3 class="card_title" data-aos="fade-up" data-aos-delay="800">Romance</h3>
+                            <p class="card_text" data-aos="fade-up" data-aos-delay="1100">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. 
+                            Eos enim, tenetur ut dolores  <br> rerum dignissimos.</p>
+                        </div>
+                    </div>
+
+                    <div class="col1">
+                        <div class="card">
+                            <img src="./assets/img/romcom.gif" alt="" data-aos="fade-up" data-aos-delay="800">
+                        </div>
+                        <div class="card_body">
+                            <h3 class="card_title" data-aos="fade-up" data-aos-delay="1100">RomCom</h3>
+                            <p class="card_text" data-aos="fade-up" data-aos-delay="1300">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. 
+                            Eos enim, tenetur ut dolores  <br> rerum dignissimos.</p>
+                        </div>
+                    </div>
+
+                    <div class="col1">
+                        <div class="card">
+                            <img src="./assets/img/horror.gif" alt="" data-aos="fade-up" data-aos-delay="400">
+                        </div>
+                        <div class="card_body">
+                            <h3 class="card_title" data-aos="fade-up" data-aos-delay="800">Horror</h3>
                             <p class="card_text">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. 
                             Eos enim, tenetur ut dolores  <br> rerum dignissimos.</p>
                         </div>
@@ -64,10 +99,10 @@
 
                     <div class="col1">
                         <div class="card">
-                            <img src="./assets/img/romance.gif" alt="">
+                            <img src="./assets/img/mystery.gif" alt="" data-aos="fade-up" data-aos-delay="800">
                         </div>
                         <div class="card_body">
-                            <h3 class="card_title">Romance</h3>
+                            <h3 class="card_title" data-aos="fade-up" data-aos-delay="1100">Mystery</h3>
                             <p class="card_text">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. 
                             Eos enim, tenetur ut dolores  <br> rerum dignissimos.</p>
                         </div>
@@ -75,43 +110,10 @@
 
                     <div class="col1">
                         <div class="card">
-                            <img src="./assets/img/romcom.gif" alt="">
+                            <img src="./assets/img/thriller.gif" alt="" data-aos="fade-up" data-aos-delay="1300">
                         </div>
                         <div class="card_body">
-                            <h3 class="card_title">RomCom</h3>
-                            <p class="card_text">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. 
-                            Eos enim, tenetur ut dolores  <br> rerum dignissimos.</p>
-                        </div>
-                    </div>
-
-                    <div class="col1">
-                        <div class="card">
-                            <img src="./assets/img/horror.gif" alt="">
-                        </div>
-                        <div class="card_body">
-                            <h3 class="card_title">Horror</h3>
-                            <p class="card_text">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. 
-                            Eos enim, tenetur ut dolores  <br> rerum dignissimos.</p>
-                        </div>
-                    </div>
-
-                    <div class="col1">
-                        <div class="card">
-                            <img src="./assets/img/mystery.gif" alt="">
-                        </div>
-                        <div class="card_body">
-                            <h3 class="card_title">Mystery</h3>
-                            <p class="card_text">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. 
-                            Eos enim, tenetur ut dolores  <br> rerum dignissimos.</p>
-                        </div>
-                    </div>
-
-                    <div class="col1">
-                        <div class="card">
-                            <img src="./assets/img/thriller.gif" alt="">
-                        </div>
-                        <div class="card_body">
-                            <h3 class="card_title">Thriller</h3>
+                            <h3 class="card_title" data-aos="fade-up" data-aos-delay="1500">Thriller</h3>
                             <p class="card_text">Lorem ipsum dolor sit amet consectetur  <br> adipisicing elit. 
                             Eos enim, tenetur ut dolores  <br> rerum dignissimos.</p>
                         </div>
@@ -119,10 +121,24 @@
                     
                 </div>
             </div>
-
-
-
         </div>
     </section>
+
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        AOS.init({
+
+        offset: 120,
+        duration: 1000,
+        });
+    </script>
+
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+    });
+    </script>
 </body>
 </html>
