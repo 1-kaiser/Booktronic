@@ -1,0 +1,171 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, video, picture, svg, canvas {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+h1, h2 {
+  line-height: 1.1;
+}
+
+input, button {
+  border: none;
+  outline: 2px solid transparent;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(45deg, #FFC719, #BF033B);
+  animation: color 10s ease-in-out infinite;
+  background-size: 300% 500%;
+}
+
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.container {
+  min-height: 100vh;
+  margin: 0 23px 23px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .landing-title {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-weight: 400;
+  font-size: clamp(2.5rem, 1.5rem + 2vw, 3rem);
+  padding-bottom: 1rem;
+}
+.container p {
+  font-size: 13px;
+}
+.container .body {
+  margin-right: 25px;
+}
+.container .buttons {
+  margin-top: 25px;
+}
+.container .buttons a {
+  color: rgb(37, 37, 37);
+  margin-right: 30px;
+  margin-left: 12px;
+}
+.container img {
+  padding-bottom: 35px;
+}
+
+@media only screen and (max-width: 660px) {
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    margin: 23px 0 0 23px;
+  }
+  .container .body .landing-title {
+    text-align: center;
+  }
+  .container .body p {
+    text-align: center;
+    margin: 0 20px 0 20px;
+  }
+  .container .body .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .container img {
+    width: 145px;
+    padding-bottom: 18px;
+  }
+}
+.genres_container {
+  min-height: 100vh;
+}
+.genres_container .container_title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 60px 0 0 60px;
+}
+.genres_container .container_title .genres_image_title {
+  width: 50px;
+  margin: 60px 20px 0 0;
+}
+.genres_container .container_title .genres_title {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-size: 45px;
+  margin: 33px 0 0 0;
+  font-weight: 500;
+}
+.genres_container .genres_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.genres_container .genres_body .row {
+  display: flex;
+  gap: 5em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0 30px 0;
+}
+.genres_container .genres_body .row .col1 {
+  width: 350px;
+}
+.genres_container .genres_body .row .col1 .card {
+  display: flex;
+  justify-content: center;
+}
+.genres_container .genres_body .row .col1 .card img {
+  width: 125px;
+}
+.genres_container .genres_body .row .col1 .card_title {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+.genres_container .genres_body .row .col1 .card_text {
+  text-align: center;
+  font-size: 10px;
+}/*# sourceMappingURL=style.css.map */
